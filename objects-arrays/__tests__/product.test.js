@@ -1,4 +1,4 @@
-describe("product function test", () => {
+xdescribe("product function test", () => {
 	let {product, productArr} = require("../exercises/product");
   it("should create an object with 4 properties", () => {
     expect(Object.keys(product("hammer", "ge", 100)).length).toBe(4);
