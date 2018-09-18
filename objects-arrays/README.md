@@ -19,10 +19,9 @@
 
 2. Declare an empty array named ```productArr``` in ```exercises/product.js```. In this same file, declare a factory ```function``` named product. This ```function``` has 3 ```parameters```: name, brand, quantity. `name` and `brand` should always be ```strings```. `quantity` will be a ```number``` with a default value of ```0```. Every object created using this function should also have a property named ```inStock``` which is a boolean. If ```quantity``` is less than or equal to 0, ```inStock``` will have a value of ```false```; otherwise, ```inStock``` will have a value of ```true```. Every time we create a new object we want to push said object into the ```productArr``` array and return the created object.
 
-**Tip:** This function is supposed to be doing a lot. A good way to get started is to write down step by step what this function should accomplish. This technique will provide more clarity when tackling tougher problems. 
-
+**Tip:** This function is supposed to be doing a lot. A good way to get started is to write down step by step what this function should accomplish. This technique will provide more clarity when tackling tougher problems. See below if you feel stuck.
 <details>
-	<summary>Suggested Solution</summary>
+	<summary>Suggested Steps</summary>
 
 	1. Create an empty array named ```productArr```.
 	2. Create a function named ```products``` that has 3 parameters (name, brand, quantity)
@@ -36,5 +35,6 @@
 	9. Push the object into the array created in step 1.
 	10. Return the created object.
 </details>
+<br>
 
 3.  **Very Hard**: In ```iterateOverArrayAndCreatePeople.js```, create a factory ```function``` named `person` that takes 3 arguments: name, age, alive. This function will create an object with 3 properties, for example ```{name: "john", age: 33, alive: true}```. Then, declare a function named ```createPeople```. This function takes an array as an argument and it iterates over that array using ```map```. ```map``` should use the ```person function``` defined previously in order to create a new array of elements. For example, ```createPeople([['jules', 38, true], ['mia', 28, true], ['zed', 35, false]])``` will return ```[{name: 'jules', age: 38, alive: true}, {name: 'mia', age: 28, alive: true}, {name: 'zed', age: 35, alive: false}]```
