@@ -24,16 +24,17 @@
 	<summary>Suggested Steps</summary>
 
 	1. Create an empty array named ```productArr```.
-	2. Create a function named ```products``` that has 3 parameters (name, brand, quantity)
+	2. Create a function named ```product``` that has 3 parameters (name, brand, quantity)
 	3. Set ```quantity``` to have a default value of 0
 	4. Validate that name and brand ```parameters``` are ```strings```
-	5. Our function will create an object with 4 properties
-	6. The first 3 properties of this object are defined by the arguments passed to our function call.
-	7. To set the 4th property we need to check if quantity is less or equals to 0
-	8. If the quantity ```argument``` is less or equals to 0 then the ```inStock```
+	5. If name and brand are not ```strings``` return null
+	6. Our function will create an object with 4 properties
+	7. The first 3 properties of this object are defined by the arguments passed to our function call.
+	8. To set the 4th property we need to check if quantity is less or equals to 0
+	9. If the quantity ```argument``` is less or equals to 0 then the ```inStock```
 				property of the created object will be false, else it will be true
-	9. Push the object into the array created in step 1.
-	10. Return the created object.
+	10. Push the object into the array created in step 1.
+	11. Return the created object.
 </details>
 <br>
 

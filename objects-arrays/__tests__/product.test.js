@@ -13,6 +13,6 @@ xdescribe("product function test", () => {
 		expect(product('screwdriver', 'ge', 1000).inStock).toBe(true);
 	})
 	it("should push newly created objects into productArr", () => {
-		expect(productArr().length).toBeGreaterThan(0);
+		expect(productArr.length).toBeGreaterThan(0);
 	})
 });
