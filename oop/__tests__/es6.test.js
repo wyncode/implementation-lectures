@@ -10,7 +10,7 @@ describe('es6 test suite', () => {
 	it('should create a Spirit Instance with the right properties', () => {
 		let vodka = new Spirit('vodka', 'Stoli', null, 40);
 		expect(vodka.alcoholContent).toBe(40);
-		expect(vodka.haveASip(140)).toBe(10);
+		expect(vodka.howMuchCanYouDrink(140)).toBe(10);
 		vodka = new Spirit('vodka', 'Stoli');
 		expect(vodka.alcoholContent).toBe(0);
 		expect(vodka.flavor).toBe(null);
