@@ -20,6 +20,7 @@
 4. Return this **array** from the ```fetchPeople``` function and assign it to a **variable**
 5. Since ```fetchPeople``` is an **async/await** function it will always return a **promise**, write down a **promise** handler that will iterate over the returned **array** and will **console.log** each element inside the **array**
 
+**Second Exercise**
 
 1. Create an ```async``` **function** named ```fetchStarWarsCharacter``` that performs a ```GET``` request using **axios** to get a random character with an ```id``` equals to a number between 1 and 10, save this character in a variable. Read the documentation of the API to see how to get a character from the movies.
 2. Perform this operation once more so you now have 2 characters.
