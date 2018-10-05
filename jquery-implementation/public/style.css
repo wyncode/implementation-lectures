@@ -1,0 +1,63 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#content-wrapper {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+#content {
+  position: relative;
+  width: 80vw;
+  height: 80vh;
+  display: inline-block;
+  border-radius: 25px;
+  background-color: lightblue;
+}
+
+#content h1 {
+  position: absolute;
+  top: 3%;
+  left: 40%;
+}
+
+#content-theme {
+  position: absolute;
+  right: 3%;
+  top: 2%;
+}
+
+.special {
+  width: 10rem;
+  height: 2rem;
+  border-radius: 25px;
+}
+
+#content-theme button {
+}
+
+#import-people {
+  position: absolute;
+  top: 8%;
+  left: 5%;
+  width: 10%;
+  height: 5%;
+  border-radius: 25px;
+}
+
+#people-list {
+	position: absolute;
+	display: block;
+	top: 20%;
+}
+
+.person-li {
+	width: 20%;
+	margin-left: 1%;
+	height: 20px;
+	display: inline-block;
+	background-color: aliceblue;
+}
