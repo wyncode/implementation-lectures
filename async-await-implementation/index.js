@@ -1,9 +1,20 @@
-let serverString = 'https://peopleserver.now.sh/person';
-let axios = require('axios');
+const axios = require('axios');
 
-let name = "";
-let counter = 0;
-async function hitServer () {
-	let {data} = await axios.get(serverString).catch(err => console.log(err));
-	console.log(++counter, data);
+async function fetchCharacter() {
+	let id = Math.ceil(Math.random() * 10);
+	let {data} = await axios.get(`https://www.swapi.co/api/people/${id}`)
+	return data;
 }
+
+async function fetchStarWarsCharacter() {
+	let character1 = await fetchCharacter();
+	let character2 = await fetchCharacter();
+	await axios.post(`https://www.google.com`, {character1, character2})
+	.catch(() => console.log("Shit be grim"));
+	return {character1, character2};
+}
+
+fetchStarWarsCharacter().then((data) => {
+	console.log('First character:', data.character1);
+	console.log('Second character:', data.character2);
+});
