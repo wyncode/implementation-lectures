@@ -1,7 +1,7 @@
 # Test Driven Development with Jest
 
 ## Setup
-1. Create a new directory named ```tdd-implementation```
+1. Change directory into ```wyncode/implementation-lectures```
 2. Change directory into ```tdd-implementation```
 3. run ```npm init -y```
 4. run ```npm install jest -D```
