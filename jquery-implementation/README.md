@@ -3,7 +3,6 @@
 # Set up
 
  1. Change directory into your ```wyncode/implementation-lectures/jqueryImplementation```.
- 2. Run **git pull** to get the newest changes
  2. In your command line run **npm install**
  3. Start the **server.js** file by running **node server.js**
  4. In your browser go to ```localhost:5000```
