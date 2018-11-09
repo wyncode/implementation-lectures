@@ -5,8 +5,7 @@
 ## Setup.
 
 1. Change directory into ```wyncode/implementation-lectures```
-2. Run ```git pull upstream master``` to get the newest changes
-3. Change directory into ```async-await-implementation```
+2. Change directory into ```async-await-implementation```
 4. Run ```npm install``` in order to install the project's dependencies.
 3. Create an ```index.js``` file.
 5. Require ```axios``` into the ```index.js``` file
