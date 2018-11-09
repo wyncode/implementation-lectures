@@ -14,7 +14,9 @@
 
 1. Create an ```async``` **function** named ```fetchPeople``` that performs a ```GET``` request using **axios** to ```https://goodparts.dokku-hosted.thruhere.net/people``` using **await**
 2. Save the data returned from this function call into a variable. (Remember that the actual data returned from an **axios** request is stored in the **data** property of the response object). The data you receive will be a group of **person** objects in an **array**
+
 **NOTE** The following step has nothing to do with asynchronous programming. Skip it if you feel it will take too long
+
 3. Create a new **array** that contains all elements with a ```first_name``` property that starts with either 'a' or 'A'. (Use Array.prototype.filter, not Array.prototype.map)
 4. Return this **array** from the ```fetchPeople``` function and assign it to a **variable**
 5. Since ```fetchPeople``` is an **async/await** function it will always return a **promise**, write down a **promise** handler that will iterate over the returned **array** and will **console.log** each element inside the **array**
